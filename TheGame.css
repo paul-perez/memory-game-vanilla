@@ -1,0 +1,45 @@
+.card-table {
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  margin: 5px;
+  background-color: green;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.scene {
+  width: 8.0%;
+  height: 21%;
+  margin: auto;
+  perspective: 600px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card .face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card .face.front {
+  background: red;
+}
+
+.card .face.back{
+  background: blue;
+  transform: rotateY( 180deg );
+}
+
+.card.flip {
+  transform: rotateY(180deg);
+}
