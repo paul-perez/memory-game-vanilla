@@ -86,7 +86,7 @@ window['NS'] = window['NS'] || {};
                 this.icons.push(icon);
                 this.icons.push(icon);
             }     
-            //NS.res.shuffle(this.icons);
+            NS.res.shuffle(this.icons);
             for(let i=0;i<48;i++){
                 this.cards.push(new Card(this.icons[i], this));
             }     
