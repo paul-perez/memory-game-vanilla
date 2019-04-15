@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Memory Game in Vanilla JS
 
 Go straight to the game in Github Pages: https://paul-perez.github.io/memory-game-vanilla/TheGame.htm
 
