@@ -15,6 +15,8 @@ window['NS'] = window['NS'] || {};
             [array[i], array[j]] = [array[j], array[i]];
         }
     }
+
+    //list of fontawesome icons. 
     NS.res._fa = [
         "fa-glass",
         "fa-music",
