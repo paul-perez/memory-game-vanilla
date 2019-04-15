@@ -4,7 +4,16 @@
 <link href="TheGame.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="card-table"></div>
+    <div class="header">
+        <div class="left">
+            <button onclick="NS.game.reset();" title="Reset this game with the same card layout.">Reset Game</button>
+            <button onclick="NS.game.new_game();" title="Shuffle cards and start a game with a new card layout.">New Game</button>
+        </div>
+        <div class="right">
+            Score: <span class="score">0</span>
+        </div>
+    </div> 
+    <div class="card-table"></div>
 </body>
 <script src="resources.js"></script>
 <script src="TheGame.js"></script>
