@@ -7,6 +7,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+
 }
 
 .scene {
@@ -14,6 +15,8 @@
   height: 21%;
   margin: auto;
   perspective: 600px;
+
+
 }
 
 .card {
@@ -29,17 +32,34 @@
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
+  border-radius: 15px;
+  transition: opacity 7s; 
 }
 
 .card .face.front {
-  background: red;
+  background: #EEEA82 url('res/CodeClubsSQ.png') no-repeat center center;
+  background-size: auto 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card .face.back{
-  background: blue;
+  background: white;
   transform: rotateY( 180deg );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card.flip {
   transform: rotateY(180deg);
+}
+
+.fa {
+  font-size: 2em;
+}
+
+.matched {
+  opacity: 0;
 }
