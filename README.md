@@ -10,6 +10,8 @@ Javascript was chosen as the framework simply because I did not have the interne
  
 This game is documented with explanations of programming concepts for educational purposes. This game uses newer features of javascipt and CSS, such as flexbox for layout, and ES6 style classes.
 
+The backing of each card is the CodeClubs.org logo, which is a shameless plug for the nonprofit I founded to teach children in my community computer science free of charge.
+
 
 ### Description: 
 
@@ -17,7 +19,7 @@ This is a card game commonly known as Concentration or Memory, which is a card g
 
 (This is a new style ES6 class. Simplifies scoping, inheritance, etc.)
  
-** Class Card ** 
+**Class Card** 
 
 A Card is a logical unit for a card on the card table. This card object knows how to render itself, but it is up to the game
 object to insert the object into the parent DOM object. A Card also hooks up its own even handler to handle the mouse click 
@@ -30,10 +32,7 @@ The face-down card graphics are from the open source library Font Awesome, versi
 The graphics selection is completely randomized, and occurrs when the game is created, so no 
 two games will have exaclty the same graphics on the faces of the cards.
 
-The backing of each card is the CodeClubs.org logo, which is a shameless plug for the nonprofit I founded to 
-teach children in my community computer science free of charge.
-
-** Class Game ** 
+**Class Game** 
 
 Game class tracks game state and is a container for the card objects. Also defines some utility functions to reset the game, render the game into the DOM, handle game state such as score and track flipped cards, and destroy the game as necesseary.
 
