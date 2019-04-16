@@ -10,9 +10,7 @@
  *
  * Description: This is a card game commonly known as Concentration or Memory, which is a card game in which all of the cards 
  * are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over 
- * pairs of matching cards. Concentration can be played with any number of players or as solitaire. It is a particularly 
- * good game for young children, though adults may find it challenging and stimulating as well.
- *
+ * pairs of matching cards. This game can be played with any number of players or as solitaire.
  **/
 
  /** 
