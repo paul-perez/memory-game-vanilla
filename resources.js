@@ -1,3 +1,9 @@
+/**
+ * This file contains some helper functions to randomize the icons and shuffle the cards, 
+ * and the list of fontawesome icon names used to generate
+ * the images in the game.
+ *
+ **/
 window['NS'] = window['NS'] || {};
 (function(NS){
     NS.res = NS['res'] || {};
